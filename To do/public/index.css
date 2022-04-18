@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background-color: #61dafb;
+}
+
+.todo-container {
+    background: #909090;
+    width: 50vw;
+    margin: 5rem auto;
+    border-radius: 0.5rem;
+    padding: 1.2rem 1rem;
+    color: #fff;
+    box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.5);
+}
+
+.task {
+    border: 2px solid rgba(13, 58, 182, 0.737);
+    border-radius: 5px;
+    padding: 0.6rem;
+    margin: 0.6rem;
+}
+
+.task button {
+    border-radius: 5px;
+    margin: 0px 5px;
+    padding: 3px 5px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    float: right;
+}
+
+.btn-done {
+    background-color: rgb(7, 124, 115);
+}
+
+.btn-done:hover {
+    background-color: rgba(6, 105, 97, 0.989);
+}
+
+.btn-delete {
+    background-color: rgb(192, 18, 18);
+}
+
+.btn-delete:hover {
+    background-color: rgb(161, 15, 15);
+}
+
+.header {
+    margin: 0.8rem;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.create-task input[type="text"] {
+    margin: 2rem;
+    width: 80%;
+    outline: none;
+    border: none;
+    padding: 0.5rem;
+}
